@@ -47,4 +47,88 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(/img/airplane.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 23px;
+}
+
+.header__icon {
+  width: 95px;
+  height: 99px;
+  margin-top: 23px;
+}
+
+.header__menu {
+  margin-top: 55px;
+}
+
+.header__buttons {
+  border-right: 1px dashed rgba(255, 255, 255, 0.4);
+  padding-top: 3px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  color: #fff;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.header__buttons:nth-child(6) {
+  border-right: 0px;
+}
+
+.header__text {
+  margin: 48px 0px 4px 70px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.header__link {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__button {
+  width: 160px;
+  height: 45px;
+  background-color: #ec644b;
+  border: none;
+  border-radius: 50px;
+  margin-top: 44px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
 /*# sourceMappingURL=styles.css.map */
