@@ -1,0 +1,125 @@
+.top {
+    &__subtitle {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        color: $white;
+        margin-top: 10px;
+    }
+
+    &__title {
+        font-family: Roboto;
+        font-size: 72px;
+        font-weight: bold;
+        font-stretch: condensed;
+        text-align: center;
+        color: $orange;
+        margin-top: 24px;
+        padding-bottom: 2px;
+    }
+
+    &__undertitle {
+        font-family: Roboto;
+        font-size: 42px;
+        font-stretch: condensed;
+        text-align: center;
+        color: $white;
+        margin-top: 7px;
+        margin-bottom: 38px;
+    }
+
+    &__card {
+        width: 260px;
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.38;
+        text-align: center;
+        color: $white;
+    }
+
+    &__imgone, &__imgtwo, &__imgthree, &__imgfour {
+        margin: 0 auto;
+        display: flex;
+    }
+
+    &__imgone {
+        margin-top: 35px;
+        margin-bottom: 19px;
+    }
+
+    &__imgtwo {
+        margin-top: 27px;
+        margin-bottom: 13px;
+    }
+
+    &__imgthree {
+        margin-top: 31px;
+        margin-bottom: 16px;
+    }
+
+    &__imgfour {
+        margin-top: 33px;
+        margin-bottom: 16px;
+    }
+
+    &__buttontwo {
+        width: 230px;
+        height: 57px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: bold; 
+        background-color: $orange;
+        color: $white;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 50px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin: 39px auto 82px;
+    }
+
+    &__lines {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: $white;
+        text-align: center;
+        font-size: 40px;
+        max-width: 600px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    &__lines::before{
+        content: "";
+        display:block;
+        width: 388px;
+        height:1px;
+        background-color: $white;
+        position: absolute;
+        left: 23px;
+        top: 45%;
+    }
+
+    &__lines::after{
+        content: "";
+        display:block;
+        width: 388px;
+        height: 1px;
+        position: absolute;
+        background-color: $white;
+        right: 23px;
+        top: 45%;
+    }
+}

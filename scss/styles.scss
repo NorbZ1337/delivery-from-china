@@ -1,5 +1,7 @@
 @import "./reset";
 
+@import "./variables";
+
 .container{
     width: 1140px;
     margin: 0 auto;
@@ -7,3 +9,4 @@
 
 @import "./components/header";
 
+@import "./components/top"; 
