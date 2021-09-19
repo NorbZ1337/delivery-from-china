@@ -1,5 +1,4 @@
 @import "./reset";
-
 @import "./variables";
 
 .container{
@@ -8,5 +7,5 @@
 }
 
 @import "./components/header";
-
 @import "./components/top"; 
+@import "./components/_sectionone"

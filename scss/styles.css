@@ -272,4 +272,124 @@ table {
   right: 23px;
   top: 45%;
 }
+
+.sectionone {
+  background-color: #F3F3F3;
+}
+
+.sectionone__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionone__card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sectionone__title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ec644b;
+  font-family: Roboto;
+}
+
+.sectionone__text-right {
+  width: 432px;
+  margin: 13px 0 32px;
+}
+
+.sectionone__text-left {
+  width: 447px;
+  margin: 13px 0 32px;
+}
+
+.sectionone__shop {
+  width: 62px;
+  height: 65px;
+  margin: 1px 17px 2px 3px;
+}
+
+.sectionone__people {
+  width: 62px;
+  height: 58px;
+  margin: 4px 13px 2px 7px;
+}
+
+.sectionone__house {
+  width: 58px;
+  height: 50px;
+  margin: 2px 17px 12px 7px;
+}
+
+.sectionone__boxes {
+  width: 58px;
+  height: 53px;
+  margin: 2px 21px 52px 3px;
+}
+
+.sectionone__doc {
+  width: 57px;
+  height: 56px;
+  margin: 6px 20px 0px 0px;
+}
+
+.sectionone__qr {
+  width: 53px;
+  height: 52px;
+  margin: 3px 22px 8px 0px;
+}
+
+.sectionone__worldmoney {
+  width: 64px;
+  height: 55px;
+  margin: 3px 14px 5px 0px;
+}
+
+.sectionone__airplane {
+  width: 56px;
+  height: 57px;
+  margin: 4px 20px 68px 0px;
+}
+
+.sectionone__text-left, .sectionone__text-right {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3a3a3a;
+}
+
+.sectionone__titletop {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #2e2e2e;
+  padding-top: 57px;
+}
+
+.sectionone__left {
+  margin-top: 31px;
+}
+
+.sectionone__right {
+  margin-top: 32px;
+  margin-bottom: 17px;
+}
 /*# sourceMappingURL=styles.css.map */
