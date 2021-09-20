@@ -76,7 +76,7 @@ table {
   margin-top: 60px;
 }
 
-.header__buttons {
+.header__button {
   font-family: Roboto;
   font-size: 15px;
   font-weight: normal;
@@ -119,17 +119,14 @@ table {
   text-decoration: none;
 }
 
-.header__button {
-  width: 160px;
-  height: 45px;
-  background-color: #ec644b;
-  border: none;
-  border-radius: 50px;
-  margin-top: 44px;
-  font-size: 12px;
-  text-align: center;
-  color: #FFFFFF;
-  text-transform: uppercase;
+.header__buttons {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  color: #fff;
+  height: 23px;
+  margin-right: 13px;
+  margin-left: 13px;
 }
 
 .header__border:nth-child(6) {
@@ -140,6 +137,19 @@ table {
   color: #ec644b;
   cursor: pointer;
   border-bottom: 1px solid #ec644b;
+}
+
+.smallButton {
+  width: 160px;
+  height: 45px;
+  background-color: #ec644b;
+  border: none;
+  border-radius: 50px;
+  margin-top: 44px;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .top__subtitle {
@@ -449,5 +459,128 @@ table {
   color: #3a3a3a;
   text-align: center;
   margin-bottom: 54px;
+}
+
+.sectionThree {
+  background-image: url(./../img/castle.jpg);
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Roboto;
+}
+
+.sectionThree .iconBol {
+  display: inline-block;
+  margin: 58px 0 20px;
+}
+
+.sectionThree .sectionThree__title {
+  margin-bottom: 22px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.sectionThree .sectionThree__text {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.42;
+  padding-bottom: 75px;
+}
+
+.sectionFour {
+  font-family: Roboto;
+  padding-top: 53px;
+}
+
+.sectionFour__title {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #2e2e2e;
+  text-transform: uppercase;
+}
+
+.sectionFour__orangeLine {
+  width: 148px;
+  height: 1px;
+  background-color: #ec644b;
+  margin: 20px auto 17px;
+}
+
+.sectionFour__butText {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.14;
+  text-align: center;
+  color: #2e2e2e;
+  margin-bottom: 34px;
+}
+
+.sectionFour__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionFour__card {
+  width: 261px;
+  border: solid 1px #e9e9e9;
+  padding: 2px 2px 25px;
+  text-align: center;
+}
+
+.sectionFour__header {
+  background-color: #25333c;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: normal;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 23px 0 22px;
+}
+
+.sectionFour__subTitle {
+  font-size: 14px;
+  color: #2e2e2e;
+  text-transform: uppercase;
+}
+
+.sectionFour .smallButton {
+  margin-top: 0px;
+}
+
+.sectionFour__cardTitle {
+  font-size: 28px;
+  color: #ec644b;
+  margin-top: 5px;
+}
+
+.sectionFour__cardText {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #2e2e2e;
+  margin: 20px 12px 25px;
+}
+
+.sectionFour__iconShip {
+  margin: 14px 0 12px;
+}
+
+.sectionFour__iconTrain {
+  margin: 14px 0 10px;
+}
+
+.sectionFour__iconTruck {
+  margin: 9px 0 15px;
+}
+
+.sectionFour__iconAirplane {
+  margin: 13px 0 7px;
 }
 /*# sourceMappingURL=styles.css.map */

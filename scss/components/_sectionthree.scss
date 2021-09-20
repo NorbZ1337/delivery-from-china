@@ -1,0 +1,27 @@
+.sectionThree {
+    background-image: url(./../img/castle.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    color: $white;
+    font-family: Roboto;
+
+
+    .iconBol {
+        display: inline-block;
+        margin: 58px 0 20px;
+    }
+
+    .sectionThree__title {
+        margin-bottom: 22px ;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    
+    .sectionThree__text { 
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 1.42;
+        padding-bottom: 75px;
+    }
+}

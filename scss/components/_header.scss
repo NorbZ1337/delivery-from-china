@@ -16,7 +16,7 @@
         
     }
 
-    &__buttons {
+    &__button {
         font-family: Roboto;
         font-size: 15px;
         font-weight: normal;
@@ -59,17 +59,14 @@
         text-decoration: none;
     }
 
-    &__button {
-        width: 160px;
-        height: 45px;
-        background-color: $orange;
-        border: none;
-        border-radius: 50px;
-        margin-top: 44px;
-        font-size: 12px;
-        text-align: center;
-        color: $white;
-        text-transform: uppercase;
+    &__buttons {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: normal;
+        color: #fff;
+        height: 23px;
+        margin-right: 13px;
+        margin-left: 13px;
     }
 
     &__border:nth-child(6) {
@@ -81,4 +78,16 @@
         cursor: pointer;
         border-bottom: 1px solid $orange;
     }
+}
+.smallButton {
+    width: 160px;
+    height: 45px;
+    background-color: $orange;
+    border: none;
+    border-radius: 50px;
+    margin-top: 44px;
+    font-size: 12px;
+    text-align: center;
+    color: $white;
+    text-transform: uppercase;
 }
