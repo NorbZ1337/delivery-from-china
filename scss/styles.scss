@@ -1,5 +1,5 @@
-@import "./reset";
-@import "./variables";
+@import "reset";
+@import "variables";
 
 .container{
     width: 1140px;
@@ -8,4 +8,5 @@
 
 @import "./components/header";
 @import "./components/top"; 
-@import "./components/_sectionone"
+@import "./components/sectionone";
+@import "./components/sectiontwo"

@@ -54,10 +54,10 @@ table {
 }
 
 .header {
-  background-image: url(/img/airplane.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(./../img/airplane.jpg);
 }
 
 .header__nav {
@@ -391,5 +391,61 @@ table {
 .sectionone__right {
   margin-top: 32px;
   margin-bottom: 17px;
+}
+
+.sectiontwo__title {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.sectiontwo__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectiontwo__orangeline {
+  width: 148px;
+  height: 1px;
+  background-color: #ec644b;
+  margin: 20px auto 17px;
+}
+
+.sectiontwo__subtitle {
+  width: 879px;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.14;
+  color: #2e2e2e;
+  margin: 0 auto 37px;
+  text-align: center;
+}
+
+.sectiontwo__titlecard {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #ec644b;
+  font-family: Roboto;
+  margin: 27px auto 12px;
+}
+
+.sectiontwo__text {
+  width: 359px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  text-align: justify;
+  color: #3a3a3a;
+  text-align: center;
+  margin-bottom: 54px;
 }
 /*# sourceMappingURL=styles.css.map */

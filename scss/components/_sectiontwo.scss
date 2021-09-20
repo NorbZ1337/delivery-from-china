@@ -1,0 +1,55 @@
+.sectiontwo {
+    &__title {
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        color: $light-black;
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__orangeline {
+        width: 148px;
+        height: 1px;
+        background-color: $orange;
+        margin: 20px auto 17px;
+    }
+
+    &__subtitle {
+        width: 879px;
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 1.14;
+        color: $light-black;
+        margin: 0 auto 37px;
+        text-align: center;     
+    }
+
+    &__titlecard {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: $orange;
+        font-family: Roboto;
+        margin: 27px auto 12px;
+    }
+
+    &__text {
+        width: 359px;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        text-align: justify;
+        color: $light-blackduo;
+        text-align: center;
+        margin-bottom: 54px;
+    }
+}
+    
+    
