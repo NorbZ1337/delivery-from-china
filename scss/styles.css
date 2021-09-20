@@ -399,6 +399,8 @@ table {
   font-weight: bold;
   text-align: center;
   color: #2e2e2e;
+  margin-top: 51px;
+  text-transform: uppercase;
 }
 
 .sectiontwo__cards {
