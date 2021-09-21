@@ -491,6 +491,7 @@ table {
 .sectionFour {
   font-family: Roboto;
   padding-top: 53px;
+  padding-bottom: 58px;
 }
 
 .sectionFour__title {
@@ -582,5 +583,38 @@ table {
 
 .sectionFour__iconAirplane {
   margin: 13px 0 7px;
+}
+
+.sectionFour__under {
+  text-align: center;
+}
+
+.sectionFour__twoTitle {
+  margin: 56px 0 20px;
+}
+
+.sectionFour__input {
+  width: 210px;
+  border: solid 1px rgba(0, 0, 0, 0.21);
+  border-radius: 50px;
+  margin: 15px 0 30px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.85;
+  text-align: left;
+  color: rgba(16, 16, 16, 0.7);
+  padding: 10px 28px 9px 28px;
+}
+
+.middleButton {
+  width: 180px;
+  height: 45px;
+  background-color: #ec644b;
+  border: none;
+  border-radius: 50px;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=styles.css.map */
