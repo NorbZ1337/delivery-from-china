@@ -470,18 +470,18 @@ table {
   font-family: Roboto;
 }
 
-.sectionThree .iconBol {
+.iconBol {
   display: inline-block;
   margin: 58px 0 20px;
 }
 
-.sectionThree .sectionThree__title {
+.backgroudTitle {
   margin-bottom: 22px;
   font-size: 26px;
   font-weight: bold;
 }
 
-.sectionThree .sectionThree__text {
+.backgroudText {
   font-size: 19px;
   font-weight: 300;
   line-height: 1.42;
@@ -500,13 +500,6 @@ table {
   text-align: center;
   color: #2e2e2e;
   text-transform: uppercase;
-}
-
-.sectionFour__orangeLine {
-  width: 148px;
-  height: 1px;
-  background-color: #ec644b;
-  margin: 20px auto 17px;
 }
 
 .sectionFour__butText {
@@ -616,5 +609,132 @@ table {
   text-align: center;
   color: #FFFFFF;
   text-transform: uppercase;
+}
+
+.orangeLine {
+  width: 148px;
+  height: 1px;
+  background-color: #ec644b;
+  margin: 20px auto 17px;
+}
+
+.sectionFive {
+  background-image: url(./../img/city.jpg);
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Roboto;
+}
+
+.sectionSix {
+  background-color: #F3F3F3;
+  font-family: Roboto;
+  text-align: center;
+  padding: 51px 0 46px;
+}
+
+.sectionSix__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionSix__cardOne {
+  width: 249px;
+}
+
+.sectionSix__cardTwo {
+  width: 253px;
+}
+
+.sectionSix__cardThree, .sectionSix__cardFour {
+  width: 254px;
+}
+
+.sectionSix__cardFive {
+  width: 232px;
+}
+
+.sectionSix__cardSix {
+  width: 258px;
+}
+
+.sectionSix__cardSeven {
+  width: 212px;
+}
+
+.sectionSix__underCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.sectionSix__cardTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ec644b;
+  margin-bottom: 5px;
+}
+
+.sectionSix__cardText {
+  font-size: 14px;
+  font-weight: 300;
+  color: #3a3a3a;
+  line-height: 1.43;
+}
+
+.sectionSix__web {
+  margin: 36px 0 12px;
+}
+
+.sectionSix__gps {
+  margin: 33px 89px 7px;
+}
+
+.sectionSix__contract {
+  margin: 29px 0 18px;
+}
+
+.sectionSix__storage {
+  margin: 29px 0 14px;
+}
+
+.sectionSix__check {
+  margin: 23px 0 14px;
+}
+
+.sectionSix__cargo {
+  margin: 24px 0 11px;
+}
+
+.sectionSix__cash {
+  margin: 26px 0 11px;
+}
+
+.bigTitle {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2e2e2e;
+  text-transform: uppercase;
+}
+
+.sectionSeven {
+  text-align: center;
+  font-family: Roboto;
+  text-align: center;
+  padding-top: 51px;
+}
+
+.sectionSeven__butTitle {
+  font-size: 21px;
+  font-weight: 300;
+  color: #2e2e2e;
 }
 /*# sourceMappingURL=styles.css.map */

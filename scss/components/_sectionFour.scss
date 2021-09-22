@@ -11,13 +11,6 @@
         text-transform: uppercase;
     }
 
-    &__orangeLine {
-        width: 148px;
-        height: 1px;
-        background-color: $orange;
-        margin: 20px auto 17px;
-    }
-
     &__butText {
         font-size: 21px;
         font-weight: 300;
@@ -123,4 +116,11 @@
     text-align: center;
     color: $white;
     text-transform: uppercase;
+}
+
+.orangeLine {
+    width: 148px;
+    height: 1px;
+    background-color: $orange;
+    margin: 20px auto 17px;
 }

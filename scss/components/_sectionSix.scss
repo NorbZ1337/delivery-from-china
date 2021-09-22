@@ -1,0 +1,92 @@
+.sectionSix {
+    background-color: $light-gray;
+    font-family: Roboto;
+    text-align: center;
+    padding: 51px 0 46px;
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__cardOne {
+        width: 249px;
+    }
+
+    &__cardTwo {
+        width: 253px;
+    }
+
+    &__cardThree, &__cardFour{
+        width: 254px;
+    }
+
+    &__cardFive {
+        width: 232px;
+    }
+
+    &__cardSix {
+        width: 258px;
+    }
+
+    &__cardSeven {
+        width: 212px;
+    }
+
+    &__underCards {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__cardTitle {
+        font-size: 16px;
+        font-weight: bold;
+        color: $orange;
+        margin-bottom: 5px;
+    }
+
+    &__cardText {
+        font-size: 14px;
+        font-weight: 300;
+        color: $light-blackduo;
+        line-height: 1.43;  
+    }
+
+    &__web {
+        margin: 36px 0 12px;
+    }
+
+    &__gps {
+        margin: 33px 89px 7px;
+    }
+
+    &__contract {
+        margin: 29px 0 18px; 
+    }
+
+    &__storage {
+        margin: 29px 0 14px;
+    }
+
+    &__check {
+        margin: 23px 0 14px;
+    }
+
+    &__cargo {
+        margin: 24px 0 11px;
+    }
+
+    &__cash {
+        margin: 26px 0 11px;
+    }
+}
+
+.bigTitle {
+    font-size: 26px;
+    font-weight: bold;
+    color: $light-black;
+    text-transform: uppercase;
+}
+
+    
+
