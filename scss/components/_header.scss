@@ -37,10 +37,6 @@
         margin-right: 10px;
     }
 
-    &__questions {
-        margin-top: 48px;
-    }
-
     &__text {
         font-family: Roboto;
         font-size: 14px;
@@ -90,4 +86,8 @@
     text-align: center;
     color: $white;
     text-transform: uppercase;
+}
+
+.questions {
+    margin-top: 48px;
 }

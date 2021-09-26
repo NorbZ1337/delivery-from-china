@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-</head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -35,7 +35,7 @@
                     <li class="header__buttons">Контакты</li>
                     </div>
                 </ul>
-                <div class="header__questions">
+                <div class="questions">
                     <div class="header__text">Есть вопросы?</div>
                     <a class="header__link" href="tel:+79270276825">+7(927)-027-68-25</a>
                 </div>
@@ -236,7 +236,7 @@
                 </p>
                 <div class="sectionFour__cards">
                     <div class="sectionFour__card">
-                        <div class="sectionFour__header">
+                        <div class="greenHeader">
                             Доставка морем
                         </div>
                         <img class="sectionFour__iconShip" src="icon/ship.png" alt="ship.png">
@@ -252,7 +252,7 @@
                         <button class="smallButton">Подробнее</button>
                     </div>
                     <div class="sectionFour__card">
-                        <div class="sectionFour__header">
+                        <div class="greenHeader">
                             Ж/Д доставка
                         </div>
                         <img class="sectionFour__iconTrain" src="icon/train.png" alt="train.png">
@@ -268,7 +268,7 @@
                         <button class="smallButton">Подробнее</button>
                     </div>
                     <div class="sectionFour__card">
-                        <div class="sectionFour__header">
+                        <div class="greenHeader">
                             Автодоставка
                         </div>
                         <img class="sectionFour__iconTruck" src="icon/truck.png" alt="truck.png">
@@ -284,7 +284,7 @@
                         <button class="smallButton">Подробнее</button>
                     </div>
                     <div class="sectionFour__card">
-                        <div class="sectionFour__header">
+                        <div class="greenHeader">
                             Авиа доставка
                         </div>
                         <img class="sectionFour__iconAirplane" src="icon/redairplane.png" alt="redairplane.png">
@@ -303,10 +303,10 @@
                 <div class="sectionFour__under">
                     <h3 class="sectionFour__twoTitle">Заказать бесплатную консультацию</h3>
                     <img class="sectionFour__imgSupport" src="icon/support.png" alt="support.png">
-                    <div class="sectionFour__inputs">
-                        <input class="sectionFour__input" placeholder="Ваше имя..." type="text">
-                        <input class="sectionFour__input" placeholder="Ваш номер телефона..." type="text">
-                        <input class="sectionFour__input" placeholder="Ваш e-mail..." type="text">
+                    <div class="inputs">
+                        <input class="input" placeholder="Ваше имя..." type="text">
+                        <input class="input" placeholder="Ваш номер телефона..." type="text">
+                        <input class="input" placeholder="Ваш e-mail..." type="text">
                     </div>
                     <button class="middleButton">Отправить заявку</button>
                 </div>
@@ -390,5 +390,52 @@
                 </h4>
             </div>
         </section>
+        <section class="sectionEight">
+            <div class="container">
+                <div class="sectionEight__card">
+                    <div class="greenHeader">
+                        <h4 class="sectionEight__title">Остались вопросы?</h4>
+                        <h5 class="sectionEight__subtitle">Напишите нам!</h5>
+                    </div>
+                    <div class="inputs">
+                        <input class="input" placeholder="Ваше имя..." type="text">
+                        <input class="input" placeholder="Ваш номер телефона..." type="text">
+                        <input class="input" placeholder="Ваш e-mail..." type="text">
+                        <textarea name="message" class="message" placeholder="Сообщение..." cols="30" rows="10"></textarea>
+                    </div>
+                    <button class="middleButton">Отправить заявку</button>
+                </div>
+            </div>
+        </section>
+        <section class="sectionNine">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1689.6578469144047!2d50.16977082598201!3d53.208218542804154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0YHQtdC60YHRiNC-0L8!5e0!3m2!1sru!2sru!4v1632447590089!5m2!1sru!2sru" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__up">
+                    <div class="footer__left">
+                        <img class="footer__icon" src="icon/tiger_eblo.png" alt="tiger_eblo.png">
+                        <span class=footer__textup>Global Opt - Доставка грузов из Китая в Россию и СНГ</span>
+                    </div>
+                    <div class="footer__right">
+                        <div class="questions">
+                            <div class="header__text">Есть вопросы?</div>
+                            <a class="header__link" href="tel:+79270276825">+7(927)-027-68-25</a>
+                        </div>
+                        <button class="smallButton">Перезвоните мне</button>
+                    </div>
+                </div>
+                <div class="footer__grayLine"></div>
+                <div class="footer__down">
+                    <span class="footer__text">© 2010 Scratch.com.ua</span>
+                    <a class="footer__link" href="">Политика конфидециальности</a>                
+                    <span class="footer__textMid">Создание сайта:</span>
+                    <img class="footer__copyrightImg" src="icon/copyright.png" alt="copyright.png">
+                </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/script.js"></script>
 </body>
 </html>
